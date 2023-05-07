@@ -8,11 +8,11 @@ const Home = () => {
   return (
     <div>
        <Main />
-       <Row title="Upcoming" Url={requests.requestUpcoming}/>
-       <Row title="Popular" Url={requests.requestPopular}/>
-       <Row title="Trending" Url={requests.requestTrending}/>
-       <Row title="Top-Rated" Url={requests.requestTopRated}/>    
-       <Row title="Anime" Url={requests.requestAnime}/>    
+       <Row rId='1' title="Upcoming" Url={requests.requestUpcoming}/>
+       <Row rId='2' title="Popular" Url={requests.requestPopular}/>
+       <Row rId='3' title="Trending" Url={requests.requestTrending}/>
+       <Row rId='4' title="Top-Rated" Url={requests.requestTopRated}/>    
+       <Row rId='5' title="Anime" Url={requests.requestAnime}/>    
     </div>
   )
 }
