@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import {FaHeart,FaRegHeart} from 'react-icons/fa'
 
 
-const Movies = ({item,key}) => {
+const Movies = ({item}) => {
     const [like,setLike]=useState(false)
   return (
     <>
